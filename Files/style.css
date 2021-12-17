@@ -1,0 +1,605 @@
+body{
+    background-color: azure;
+}
+
+.logo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color:#e25098 ;
+    margin-left:0.5em !important;
+    }
+
+.numbers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color:#e25098 ;
+    color:white!important; font-size:6em;
+    margin-left:2em !important;
+    }
+    
+.bghome{
+    background:url("https://i2.wp.com/armchairjournal.com/wp-content/uploads/2020/07/indian-traditional-2659293_1280.jpg?fit=1200%2C800&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2em;
+    line-height:5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.h11{
+    color:white; text-align:left; font-size:3em; font-weight:bold; 
+    padding:0.2em, 0em;
+    margin-right:15em;
+}
+    .box1{
+        margin-top:2em 0em !important;
+        padding:2em;
+        background-color: hsl(253, 71%, 61%);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        font-size:0.9em;
+    }
+
+    .box2{
+        margin-top:0em !important;
+        padding:0em;
+        font-size:4em;
+        font-weight: bold;
+        text-align:left;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .link{
+        text-decoration:none;
+        color:rgb(220,20,60) !important;
+    }
+
+    .link:hover{
+        text-decoration:none;
+        color:white !important;
+    }
+    
+    .text1{
+        margin-left: 40px;
+        margin-right: 40px;
+        color:black;
+        font-family: 'Encode Sans SC', sans-serif;
+        font-size: 40px;
+        font-weight: 20px;
+        text-align: center; 
+       }
+    
+
+       .text{
+        color:black;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        font-weight: 20px;
+        text-align: center; 
+        position:sticky;
+        padding-top:1em;
+        padding-bottom:2em;
+       }
+
+       .text3{
+        color:black;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        font-weight: 20px;
+        text-align: center; 
+        position:sticky;
+       }
+    
+       .text::before{
+        color:#f05473;
+        font-family:'Anton', sans;-serif;
+        font-size: 50px;
+        font-weight: 30px;
+        text-align: center;
+        content:"Indian Handicrafts";
+        animation: text-change 5s infinite;
+        padding-top:1em;
+        padding-bottom:8em;
+       }
+
+
+       .text3::before{
+        color:#f53f63;
+        font-family: 'Anton', sans;-serif;
+        font-size: 50px;
+        font-weight: 30px;
+        text-align: center;
+        content:"Discrimination against menstruating women is widespread, where periods are considered impure. ";
+        animation: text3-change 5s infinite;
+       }
+   
+    
+      @keyframes text-change{
+        20% {content:"are strengthning the economy ";}
+         40% {content:"and also giving new identity to the region";}
+         60% {content:"handcrafted diaries & tea holders are handmade";}
+          80% {content:"It offer financial independence to rural women ";}
+      }
+
+      @keyframes text3-change{
+         40% {content:"71% of adolescent girls in India are unaware of menstruation until they get it themselves.";}
+         80% {content:"Main reasons are a lack of clean toilets in schools and poor access to sanitary products.";}
+      }
+
+       .text5{
+        color:black;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        font-weight: 20px;
+        text-align: center; 
+        position:sticky;
+        margin-left:3em;
+       }
+    
+       .text5::before{
+        color:#f05473;
+        font-family:'Anton', sans;-serif;
+        font-size: 50px;
+        font-weight: 30px;
+        text-align: center;
+        content:"We hate you";
+        animation: text-change5 5s infinite;
+        padding-top:1em;
+        padding-bottom:8em;
+       }
+
+   
+    
+      @keyframes text-change5{
+        20% {content:"Hey! Elephant ";}
+         40% {content:"Why so skinny?";}
+         60% {content:"Please use filters";}
+          80% {content:"You are soo short";}
+      }
+
+
+      .heading{
+         font-family:'Pacifico', cursive;
+         font-size:2em;
+         font-weight:3px;
+         text-align:center;
+         color:rgb(248, 131, 121);
+      }
+
+
+    #img{
+        margin-top:1em;
+        width:90%;
+        height:90%;
+    }
+
+    .title1{
+        font-family:'Pacifico', cursive;
+    }
+    
+    .left-aligned-heading{
+    color:white; text-align:left; font-size:3em; font-weight:bold; 
+    padding:0.2em;
+    }
+
+    .right-aligned-heading{
+        color:white; text-align:justify; margin-left:0em; 
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        line-height: 3em;
+        font-size:1.2em;
+        }
+
+    .gif{
+        width:35em;
+        height:25em;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .shadow{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .button-pink{
+        margin:2em 1em 5em 1em;
+        align-items: left;
+        padding:1em 1em;
+        border-color:#e25098;
+        color:#e25098;
+        border-radius:0em !important;
+        border-width:2px !important;
+        font-family:'Ubuntu', sans-serif;
+        font-weight:bolder;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        background-color:white;
+    }
+
+    .button-pink:hover{
+        color:white;
+        background-color: #e25098;
+        border-color:hsl(253, 71%, 61%);
+    }
+
+    .shape{      
+        width:20px;
+        height:20px;
+        shape-outside: inset(20px 5px 30px 10px);
+        background: rgb(217, 243, 237);
+        align-items: center;
+        position: relative!important;
+        display: inline-block!important;
+        box-sizing: border-box;
+        transition: transform .1s ease-in-out;
+        border-radius: 2px;
+    }
+    
+    .shape:hover{
+      animation: move 5s;
+    }
+    
+    @keyframes move{
+      20% {transform: rotate(360deg);}
+     40% {transform: rotate(360deg);}
+    }
+
+    .round-img{
+        height:50%;
+        width:50%;
+        border-radius: 50%;
+    }
+
+    .card-deck{
+        color:black;
+        background-color: white;
+        margin:1.7em;
+        text-align:center;
+        width:20%;
+        height:30%;
+        padding:2em 1em;
+        border-style: dashed;
+        border-width: 2px;
+        border-color: #e25098;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .img{
+        width:9em;
+        height:8em;
+    }
+
+    button{
+        margin-top:0.5em;
+    }
+
+    .purple{
+        color:white!important; font-size:1.5 em; margin-left:10em; font-weight:bolder;
+    }
+
+    
+    
+    @media (max-width:576px){
+        .gif{
+            width:100%;
+            height:20em;
+            display:none;
+        }
+
+        .img{
+            width:5em;
+            height:5em;
+        }
+
+        .text5{
+            color:black;
+            font-family: 'Anton', sans-serif;
+            font-size: 30px;
+            font-weight: 10px;
+            text-align: center; 
+            position:sticky;
+            margin-left:1em;
+        }
+        
+    .box2{
+        font-size:3em;
+        font-weight: bolder;
+        text-align:justify;
+    }
+
+    .h11,.bghome{
+        color:white; text-align:center; font-size:1.7em; font-weight:bold; 
+        padding:0.2em, 0em;
+        margin-right:0em;
+        line-height:1em;
+    }
+
+
+    .button-pink{
+        margin:1em 1em;
+        align-items: center;
+        padding:1em 1em;
+    }
+
+    .left-aligned-heading{
+        color:white; text-align:center; font-size:2em; font-weight:bolder; 
+        padding:0.1em;
+        }
+    
+        .right-aligned-heading{
+            color:white; text-align:justify; margin-left:0em;
+
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bolder;
+            line-height: 2em;
+            font-size:1.2em;
+            }
+
+            .numbers{
+                font-family: 'Source Sans Pro', sans-serif;
+                font-family: 'Ubuntu', sans-serif;
+                color:#e25098;
+                text-align:center;
+                color:white!important; font-size:4em;
+                margin-left:0em !important;
+                }
+
+            .purple{
+                margin-left:6em !important;
+            }
+
+
+            .card-deck{
+               font-size:2em;
+                margin:1em, 2em;
+                width:70%;
+                height:40%;
+                padding:2em 1em;
+                border-style: dashed;
+                border-width: 2px;
+                border-color: #e25098;
+            }
+
+            
+        }
+    
+
+    
+    /* Icon 1 */
+    
+    .animated-icon1,
+    .animated-icon2,
+    .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .animated-icon1 span,
+    .animated-icon2 span,
+    .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    
+    .animated-icon1 span {
+    background: #2d7ef7;
+    }
+    
+    .animated-icon2 span {
+    background: #e3f2fd;
+    }
+    
+    .animated-icon3 span {
+    background: #f3e5f5;
+    }
+    
+    .animated-icon1 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon1 span:nth-child(2) {
+    top: 10px;
+    }
+    
+    .animated-icon1 span:nth-child(3) {
+    top: 20px;
+    }
+    
+    .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    }
+    
+    .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    }
+    
+    .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    }
+    
+    /* Icon 3*/
+    
+    .animated-icon2 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon2 span:nth-child(2),
+    .animated-icon2 span:nth-child(3) {
+    top: 10px;
+    }
+    
+    .animated-icon2 span:nth-child(4) {
+    top: 20px;
+    }
+    
+    .animated-icon2.open span:nth-child(1) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+    }
+    
+    .animated-icon2.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    }
+    
+    .animated-icon2.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    }
+    
+    .animated-icon2.open span:nth-child(4) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+    }
+    
+    /* Icon 4 */
+    
+    .animated-icon3 span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+    
+    .animated-icon3 span:nth-child(2) {
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+    
+    .animated-icon3 span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+    
+    .animated-icon3.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 8px;
+    }
+    
+    .animated-icon3.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+    }
+    
+    .animated-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 21px;
+    left: 8px;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    .body1 {
+      font-family: 'Muli', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      margin: 0;
+    }
+    
+    .container1 {
+      display: flex;
+      width: 70vw;
+    }
+    
+    .panel {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 60vh;
+      border-radius: 50px;
+      color: #fff;
+      cursor: pointer;
+      flex: 0.5;
+      margin: 10px;
+      position: relative;
+      -webkit-transition: all 700ms ease-in;
+    }
+    
+    .panel h3 {
+      font-size: 24px;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      margin: 0;
+      opacity: 0;
+    }
+    
+    .panel.active {
+      flex: 5;
+    }
+    
+    .panel.active h3 {
+      opacity: 1;
+      transition: opacity 0.3s ease-in 0.4s;
+    }
+    
+    @media (max-width: 480px) {
+      .container1 {
+        width: 100vw;
+      }
+    
+      .panel:nth-of-type(4),
+      .panel:nth-of-type(5) {
+        display: none;
+      }
+    }
+    
+      
